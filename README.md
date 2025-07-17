@@ -58,7 +58,7 @@ AI's impact on education is most notable in adaptive learning systems, which tai
 ### Setup Instructions:
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/ai-research-assistant.git
+   git clone https://github.com/BhavikJain25/ai-research-assistant.git
 
 2. **Install dependencies:**:
    ```bash
