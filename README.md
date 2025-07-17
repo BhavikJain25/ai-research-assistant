@@ -65,10 +65,48 @@ AI's impact on education is most notable in adaptive learning systems, which tai
    pip install -r requirements.txt
 
 3. **Set up the Google API key**:
-Create a .env file and add your API key:
-```bash
-GOOGLE_API_KEY=your_google_api_key_here
+    Create a .env file and add your API key:
+   ```bash
+    GOOGLE_API_KEY=your_google_api_key_here
 
+4. **Run the system**:
+    ```bash
+     python main.py
+
+**LLM Selection and Justification**
+ 
+ Primary LLM: Google Gemini 1.5
+ For this project, Google Gemini 1.5 was selected as the generative AI model. It is highly capable in understanding complex academic topics, summarizing research, and generating coherent literature reviews. Google Gemini 1.5 is ideal for this project due to:
+  - High-level understanding: It can process intricate academic content, making it suitable for summarizing and reviewing research papers.
+  - Content generation: It generates structured, human-like text that fits the academic context of the project.
+
+**Free-tier LLM Alternatives**
+
+While **Google Gemini** offers advanced capabilities, there are free-tier alternatives:
+ - GPT-3.5 (OpenAI): A viable free-tier alternative that excels in summarization and text generation. Suitable for researchers who prefer not to use paid APIs.
+
+ - Hugging Face: Open-source models such as GPT-Neo or GPT-J provide accessible solutions for those interested in an alternative to proprietary APIs.
+
+**Why Not Other LLMs?**
+
+While there are many LLMs available, Google Gemini was chosen for its robust content generation features and its ability to understand academic language nuances. However, GPT-3.5 and Hugging Face models can be considered if budget constraints exist or for open-source enthusiasts.
+
+**How to Use the AI Research Assistant**
+
+ 1. Clone the repository and set up the environment as per the instructions above.
+
+ 2. Run the script:
+ 3. The system will prompt you to input a research domain (e.g., AI in Education).
+
+ 4. The agents will run sequentially:
+  -Topic Agent will generate trending research topics.
+  -Summary Agent will summarize research papers.
+  -Writer Agent will produce a literature review.
+
+
+**Conclusion**
+
+The AI Research Assistant streamlines the academic research process by automating essential tasks such as topic discovery, paper summarization, and literature review writing. By integrating Google Gemini with specialized agents, the system helps researchers save time, stay up-to-date with the latest trends, and generate high-quality content efficiently.
 
 
 
