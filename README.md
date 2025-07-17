@@ -83,15 +83,13 @@ AI's impact on education is most notable in adaptive learning systems, which tai
 
   1. **Advanced Natural Language Understanding**:
 
-     -Google Gemini 1.5 excels in handling complex natural language tasks. It has been trained on a wide range of datasets, including academic literature, making it highly suited for tasks like summarizing research  papers, generating academic content, and understanding intricate research topics.
-
-     -Its ability to process long-form content and produce coherent, contextually accurate summaries and discussions is essential for this project, as the goal is to summarize research papers and generate  insightful literature reviews.
+     - Google Gemini 1.5 excels in handling complex natural language tasks. It has been trained on a wide range of datasets, including academic literature, making it highly suited for tasks like summarizing research  papers, generating academic content, and understanding intricate research topics.
+     - Its ability to process long-form content and produce coherent, contextually accurate summaries and discussions is essential for this project, as the goal is to summarize research papers and generate insightful literature reviews.
 
   2. **Content Generation for Research**:
 
-     -One of the key features of Gemini 1.5 is its high-quality content generation capabilities. It can create well-structured and academically appropriate summaries, making it the perfect choice for generating research paper summaries and literature reviews.
-
-     -Additionally, Gemini's flexibility in generating responses based on detailed prompts enables fine-tuning the output, ensuring that it fits the academic tone and style required for the project.
+     - One of the key features of Gemini 1.5 is its high-quality content generation capabilities. It can create well-structured and academically appropriate summaries, making it the perfect choice for generating research paper summaries and literature reviews.
+     - Additionally, Gemini's flexibility in generating responses based on detailed prompts enables fine-tuning the output, ensuring that it fits the academic tone and style required for the project.
 
   4. **Scalability and Performance**:
     -Gemini 1.5 is built for scalability and can handle multiple simultaneous requests without significant performance degradation, making it ideal for a multi-agent system where each agent is responsible for different tasks (topic generation, summarization, and review writing).
