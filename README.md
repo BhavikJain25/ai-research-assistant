@@ -77,23 +77,27 @@ AI's impact on education is most notable in adaptive learning systems, which tai
 
 **LLM Selection and Justification**
  
- Primary LLM: Google Gemini 1.5
+ **Primary LLM: Google Gemini 1.5**
  
  For this project, I have chosen Google Gemini 1.5 as the ideal large language model (LLM) to power the core functionality of the AI Research Assistant. The reasons for selecting Gemini 1.5 are:
 
   1. **Advanced Natural Language Understanding**:
-    -Google Gemini 1.5 excels in handling complex natural language tasks. It has been trained on a wide range of datasets, including academic literature, making it highly suited for tasks like summarizing research  papers, generating academic content, and understanding intricate research topics.
-    -Its ability to process long-form content and produce coherent, contextually accurate summaries and discussions is essential for this project, as the goal is to summarize research papers and generate  insightful literature reviews.
+
+     -Google Gemini 1.5 excels in handling complex natural language tasks. It has been trained on a wide range of datasets, including academic literature, making it highly suited for tasks like summarizing research  papers, generating academic content, and understanding intricate research topics.
+
+     -Its ability to process long-form content and produce coherent, contextually accurate summaries and discussions is essential for this project, as the goal is to summarize research papers and generate  insightful literature reviews.
 
   2. **Content Generation for Research**:
-    -One of the key features of Gemini 1.5 is its high-quality content generation capabilities. It can create well-structured and academically appropriate summaries, making it the perfect choice for generating research paper summaries and literature reviews.
-    -Additionally, Gemini's flexibility in generating responses based on detailed prompts enables fine-tuning the output, ensuring that it fits the academic tone and style required for the project.
 
-  3. **Scalability and Performance**:
+     -One of the key features of Gemini 1.5 is its high-quality content generation capabilities. It can create well-structured and academically appropriate summaries, making it the perfect choice for generating research paper summaries and literature reviews.
+
+     -Additionally, Gemini's flexibility in generating responses based on detailed prompts enables fine-tuning the output, ensuring that it fits the academic tone and style required for the project.
+
+  4. **Scalability and Performance**:
     -Gemini 1.5 is built for scalability and can handle multiple simultaneous requests without significant performance degradation, making it ideal for a multi-agent system where each agent is responsible for different tasks (topic generation, summarization, and review writing).
     -This ensures that the system can operate efficiently even when scaling up to handle multiple domains or more complex research topics.
 
-4. **Integration with Google Cloud**:
+5. **Integration with Google Cloud**:
 
   - Since Google Gemini 1.5 is part of Google Cloud, integrating it with Cloud-based tools like Google API and Google Cloud Storage is straightforward. This provides flexibility in expanding the project in the future, such as adding new features like saving results to a database or integrating with other Google services.
 
